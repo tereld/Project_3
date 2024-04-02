@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.brand__item {
+  width: calc(20% - 48px);
+  margin-right: 60px;
+}
+.brand__item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 991.98px) {
+  .brand__item {
+    width: calc(25% - 45px);
+  }
+  .brand__item:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+.products__item {
+  width: calc(25% - 15px);
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.products__item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767.98px) {
+  .products__item {
+    width: calc(50% - 10px);
+  }
+  .products__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+.sale__item {
+  width: calc(25% - 15px);
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.sale__item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 767.98px) {
+  .sale__item {
+    width: calc(50% - 10px);
+  }
+  .sale__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+.section3__item {
+  width: calc(33.3333333333% - 13.3333333333px);
+  margin-right: 20px;
+}
+.section3__item:nth-child(3n) {
+  margin-right: 0;
+}
+@media (max-width: 767.98px) {
+  .section3__item {
+    width: calc(50% - 10px);
+  }
+  .section3__item:nth-child(3n) {
+    margin-right: 20px;
+  }
+  .section3__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .section3__item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .section3__item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
